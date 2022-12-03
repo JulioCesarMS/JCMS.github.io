@@ -22,6 +22,18 @@ img {
   align-items: center;
 }
 
+
+.card-img-top {
+  width: 352px;
+  height: 250px;
+  align-items: center;
+}
+
+.card-body{
+  height: 300px;
+}
+
+
 .lab1 {
   text-align: center;
   color: darkgray;
@@ -132,3 +144,151 @@ select {
   select:disabled {
     opacity: 1;
   }
+
+
+/** Bottom **/
+/*** Button ***/
+.btn {
+  transition: .5s;
+  font-weight: 500;
+}
+
+.btn-primary,
+.btn-outline-primary:hover {
+  color: var(--light);
+}
+
+.btn-secondary,
+.btn-outline-secondary:hover {
+  color: var(--dark);
+}
+
+.btn-square {
+  width: 38px;
+  height: 38px;
+}
+
+.btn-sm-square {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-lg-square {
+  width: 48px;
+  height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+}
+
+ /**info **/
+.info-experience {
+  background-color: brown;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -45px;
+  bottom: -45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+  /*** areas ***/
+.area-item {
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+}
+
+.area-item .area-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.area-item .area-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.area-item .area-img::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.area-item .area-img::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #FFFFFF;
+  transition: .5s ease-out;
+  z-index: 2;
+}
+
+.area-item:hover .area-img::after {
+  width: 0;
+  left: auto;
+  right: 0;
+}
+
+.area-item .area-text .area-icon {
+  width: 140px;
+  height: 140px;
+  padding: 15px;
+  margin-top: -70px;
+  margin-bottom: 40px;
+  background: #FFFFFF;
+  border-radius: 140px;
+  overflow: hidden;
+  box-shadow: 0 0 60px rgba(0, 0, 0, .1);
+}
+
+.area-item .area-text h5,
+.area-item .area-text p {
+  transition: .5s;
+}
+
+.area-item:hover .area-text h5,
+.area-item:hover .area-text p {
+  color: #FFFFFF;
+}
+
+.area-item .area-text .btn {
+  color: var(--secondary);
+  background: #FFFFFF;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .25);
+}
+
+.area-item .area-text .btn:hover {
+  color: var(--dark);
+  background: var(--secondary);
+}
+
