@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+header {
+    background-color: #990033
+    ;
+}
+
+.title2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  .title3 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    text-decoration: none;
+  }
+
+  
+  body {
+    font-family:sans-serif;
+  }
+  
+  
+
+  
+  img {
+    width: 800px;
+    height: 450px;
+    align-items: center;
+  }
+  
+  
+  .card-img-top {
+    width: 352px;
+    height: 250px;
+    align-items: center;
+  }
+  
+  .card-body{
+    height: 300px;
+  }
+  
+  
+  .lab1 {
+    text-align: center;
+    color: darkgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .title1 {
+    text-align: center;
+    color: darkgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+
+  
+    
+  h2, .h2 {
+      font-size: calc(1.325rem + 0.9vw);
+    }
+    @media (min-width: 1200px) {
+      h2, .h2 {
+        font-size: 2rem;
+      }
+  }
+    
+  h3, .h3 {
+      font-size: calc(1.3rem + 0.6vw);
+    }
+    @media (min-width: 1200px) {
+      h3, .h3 {
+        font-size: 1.75rem;
+      }
+  }
+    
+  h4, .h4 {
+      font-size: calc(1.275rem + 0.3vw);
+    }
+    @media (min-width: 1200px) {
+      h4, .h4 {
+        font-size: 1.5rem;
+      }
+  }
+    
+  h5, .h5 {
+      font-size: 1.25rem;
+  }
+    
+  h6, .h6 {
+      font-size: 1rem;
+  }
+    
+  p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+  }
+  
+
+  
+  
+  h2:hover{
+    color: #0085A1;
+  }
+  
+   
+  h3:hover{
+    color: #0085A1;
+  }
+  
+
+  
+   
+  
+  /** Bottom **/
+  /*** Button ***/
+  .btn {
+    transition: .5s;
+    font-weight: 500;
+  }
+  
+  .btn-primary,
+  .btn-outline-primary:hover {
+    color: var(--light);
+  }
+  
+  .btn-secondary,
+  .btn-outline-secondary:hover {
+    color: var(--dark);
+  }
+  
+  .btn-square {
+    width: 38px;
+    height: 38px;
+  }
+  
+  .btn-sm-square {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .btn-lg-square {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .btn-square,
+  .btn-sm-square,
+  .btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+  }
+  
+   
