@@ -1,0 +1,19 @@
+
+  // ------------------ mixings ----------------------
+
+  @mixin size($width, $height: $width){
+    width: $width;
+    height: $height;
+  }
+
+  .btn-square {
+    @include size(38px);
+  }
+  
+  .btn-sm-square {
+    @include size(32px);
+  }
+  
+  .btn-lg-square {
+    @include size(48px);
+  }

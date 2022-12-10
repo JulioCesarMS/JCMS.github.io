@@ -1,0 +1,19 @@
+
+
+// -------------------- extend ---------------------
+%tit {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+ }
+
+.title2 {
+    @extend %tit;
+    font-size: 30px;
+ }
+
+.title3 {
+    @extend %tit;
+    font-size: 45px;
+  }
+
