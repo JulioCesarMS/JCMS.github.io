@@ -22,6 +22,10 @@ img {
   align-items: center;
 }
 
+.img-fluid2 {
+  width: 170px;
+  height: 200px;
+}
 
 .card-img-top {
   width: 352px;
@@ -146,36 +150,21 @@ select {
   }
 
 
-/** Bottom **/
+
 /*** Button ***/
 .btn {
-  transition: .5s;
+  transition: 0.5s;
   font-weight: 500;
 }
 
 .btn-primary,
 .btn-outline-primary:hover {
-  color: var(--light);
+  color: darkblue;
 }
 
 .btn-secondary,
 .btn-outline-secondary:hover {
   color: var(--dark);
-}
-
-.btn-square {
-  width: 38px;
-  height: 38px;
-}
-
-.btn-sm-square {
-  width: 32px;
-  height: 32px;
-}
-
-.btn-lg-square {
-  width: 48px;
-  height: 48px;
 }
 
 .btn-square,
@@ -186,20 +175,6 @@ select {
   align-items: center;
   justify-content: center;
   font-weight: normal;
-}
-
- /**info **/
-.info-experience {
-  background-color: brown;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  right: -45px;
-  bottom: -45px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
   /*** areas ***/
@@ -291,4 +266,9 @@ select {
   color: var(--dark);
   background: var(--secondary);
 }
+
+.card {
+  height: 200px;
+}
+
 

@@ -124,7 +124,7 @@ h3:hover {
 
 .btn-primary,
 .btn-outline-primary:hover {
-  color: var(--light);
+  color: darkblue;
 }
 
 .btn-secondary,
@@ -140,4 +140,4 @@ h3:hover {
   align-items: center;
   justify-content: center;
   font-weight: normal;
-}/*# sourceMappingURL=main.css.map */
+}
